@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import './landingpage.css';
+import Mohammed from './Mohammed.jpg';
 
 
 class Landing extends Component {
@@ -13,11 +14,9 @@ class Landing extends Component {
             <br></br>
             <br></br>
             <br></br>
-            <img id="img"
-              src="https://wearenotnumbers.org/assets/uploads/files/2fe02-rsz_1107498934_1017810181971262_1374990717566850405_n.jpg"
-              alt="mohammed"
-              />
+            <img id="img" src={Mohammed} alt="Mohammed"/>
 
+            
             <div className="banner-text">
               <h1>Front-End Web Developer</h1>
 

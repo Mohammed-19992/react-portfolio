@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-
+import {Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 'react-mdl';
+import './project.css';
+import demo from './demo.gif';
+import github from './github.gif';
 
 class Projects extends Component {
   constructor(props) {
@@ -14,85 +16,118 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+          <Card shadow={5} style={{minWidth: '800px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '600px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <a href="" id="line"><img src={demo}  alt="demo icon" height="80px" width="80px"/></a>
+              <a href="" id="line"><img src={github} alt="github icon" height="60px" width="60px"/></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+         <br></br>
+         <br></br>
+             {/* Project 1 */}
+             <Card shadow={5} style={{minWidth: '800px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '600px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <a href="" id="line"><img src={demo}  alt="demo icon" height="80px" width="80px"/></a>
+              <a href="" id="line"><img src={github} alt="github icon" height="60px" width="60px"/></a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+         <br></br>
+         <br></br>
 
-          {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+             {/* Project 1 */}
+             <Card shadow={5} style={{minWidth: '800px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '600px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <a href="" id="line"><img src={demo}  alt="demo icon" height="80px" width="80px"/></a>
+              <a href="" id="line"><img src={github} alt="github icon" height="60px" width="60px"/></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+         <br></br>
+         <br></br>
 
-          {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            {/* Project 1 */}
+            <Card shadow={5} style={{minWidth: '800px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '600px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <a href="" id="line"><img src={demo}  alt="demo icon" height="80px" width="80px"/></a>
+              <a href="" id="line"><img src={github} alt="github icon" height="60px" width="60px"/></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+         <br></br>
+         <br></br>
+
+            {/* Project 1 */}
+            <Card shadow={5} style={{minWidth: '800px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '600px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <a href="" id="line"><img src={demo}  alt="demo icon" height="80px" width="80px"/></a>
+              <a href="" id="line"><img src={github} alt="github icon" height="60px" width="60px"/></a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+         <br></br>
+         <br></br>
+
+            {/* Project 1 */}
+            <Card shadow={5} style={{minWidth: '800px', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '600px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            </CardText>
+            <CardActions border>
+              <a href="" id="line"><img src={demo}  alt="demo icon" height="80px" width="80px"/></a>
+              <a href="" id="line"><img src={github} alt="github icon" height="60px" width="60px"/></a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+         <br></br>
+         <br></br>
         </div>
+        
+        
 
-
       )
-    } else if(this.state.activeTab === 1) {
-      return (
-        <div><h1>This is Angular</h1></div>
-      )
-    } else if(this.state.activeTab === 2) {
-      return (
-        <div><h1>This is VueJS</h1></div>
-      )
-    } else if(this.state.activeTab === 3) {
-      return (
-        <div><h1>This is MongoDB</h1></div>
-      )
-    }
+    } 
 
   }
-
 
 
   render() {
     return(
       <div>
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
-        </Tabs>
-
-
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
