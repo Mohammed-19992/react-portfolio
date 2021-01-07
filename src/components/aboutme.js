@@ -6,8 +6,10 @@ class About extends Component {
   render() {
     return(
       <div id="about">
-<br></br>        <h3 id="h3">About Me...</h3>
+<br></br>   
+<h3 id="h3">About Me...</h3>
 <hr id="hr"></hr>
+<br></br>
         <p id="p">Front-end web developer with a content-writing and poetry background to offer clients full website
           services. I recently enrolled in and completed a full-stack development “Coding Bootcamp” at The George
           Washington University, earning a certificate in full-stack development and newly-developed skills in HTML,

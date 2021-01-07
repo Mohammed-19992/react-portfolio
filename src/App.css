@@ -18,10 +18,13 @@ background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, F
   height: 100%;
 }
 
+
+
 .projects-grid {
   padding-top: 40px;
+  display: auto;
+  float: auto;
 }
-
 
 
 /* contact page css */
@@ -76,13 +79,6 @@ border-radius: 12px;
   padding-right: 5rem;
 }
 
-
-/* contact page css */
-
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
-}
 
 .banner-text {
   background-color: black;
